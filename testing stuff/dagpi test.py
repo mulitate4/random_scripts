@@ -1,6 +1,6 @@
 from asyncdagpi import Client
 
-API_CLIENT = Client('ld46W9wQ8YaDiXOXG20lTt6I1Ze95bTV8SXlSqgW82EzpnRQulQBzEihXlIzMq3L')
+API_CLIENT = Client('')
 
 async def wanted(image_url:str):
 	response = await API_CLIENT.staticimage('wanted',image_url)
