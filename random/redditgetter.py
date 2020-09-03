@@ -1,11 +1,11 @@
 import praw
 import pandas as pd
 
-reddit_client = praw.Reddit(client_id="DQj9_VHwJgQ-oQ",
-		client_secret="34JTpT2oxsfIqB58_RZwkbIniyo",
-		password="dangerous1605",
-		user_agent="a bot?",
-		username="mulitate4",)
+reddit_client = praw.Reddit(client_id="",
+		client_secret="",
+		password="",
+		user_agent="",
+		username="",)
 
 url_list = []
 print(reddit_client.user.me())
