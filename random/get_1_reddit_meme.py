@@ -2,11 +2,11 @@ import praw
 import requests
 import shutil
 
-reddit_client = praw.Reddit(client_id="DQj9_VHwJgQ-oQ",
-		client_secret="34JTpT2oxsfIqB58_RZwkbIniyo",
-		password="dangerous1605",
-		user_agent="a bot?",
-		username="mulitate4",)
+reddit_client = praw.Reddit(client_id="",
+		client_secret="",
+		password="",
+		user_agent="",
+		username="",)
 print(reddit_client.user.me())
 
 for x in range(0, 6):
